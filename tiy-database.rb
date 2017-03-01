@@ -61,14 +61,15 @@ loop do
 
   puts "
 
-
-Enter a command:
-
-
-   Search  -  Search for a profile
-      Add  -  Add a profile
-   Delete  -  Delete a profile
-      Exit - Exit the program
+*******************************************
+*  Enter a command:                       *
+*                                         *
+*     Search  -  Search for a profile     *
+*        Add  -  Add a profile            *
+*     Delete  -  Delete a profile         *
+*       Exit  -  Exit the program         *
+*                                         *
+*******************************************
 
 "
 print "(Search/Add/Delete/Exit)?   "
@@ -148,11 +149,11 @@ Maybe you spelled it wrong, or started the program over.
         puts ""
       end
       puts "
-      ***********************************
-      *                                 *
-      *  The profile has been created!  *
-      *                                 *
-      ***********************************
+    ***********************************
+    *                                 *
+    *  The profile has been created!  *
+    *                                 *
+    ***********************************
       "
       20.times do
         puts ""
@@ -187,11 +188,11 @@ Maybe you spelled it wrong, or started the program over.
             puts ""
           end
           puts "
-          ********************************
-          *                              *
-          *  The user has been deleted.  *
-          *                              *
-          ********************************
+             ********************************
+             *                              *
+             *  The user has been deleted.  *
+             *                              *
+             ********************************
           "
           20.times do
             puts ""
